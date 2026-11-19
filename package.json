@@ -1,0 +1,77 @@
+{
+  "name": "eu-einvoice-reader",
+  "version": "0.1.0",
+  "description": "Read and pre-check European e-invoices in the browser or Node.js: XRechnung, ZUGFeRD / Factur-X (CII), Peppol BIS / UBL 2.1, FatturaPA, Facturae and KSeF FA(3), plus .p7m and .xsig signed files.",
+  "keywords": [
+    "e-invoice",
+    "einvoice",
+    "en16931",
+    "xrechnung",
+    "zugferd",
+    "factur-x",
+    "peppol",
+    "ubl",
+    "cii",
+    "fatturapa",
+    "fattura-elettronica",
+    "facturae",
+    "ksef",
+    "p7m",
+    "cades",
+    "xades",
+    "invoice-parser"
+  ],
+  "homepage": "https://github.com/OWNER/eu-einvoice-reader#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/eu-einvoice-reader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/eu-einvoice-reader.git"
+  },
+  "license": "MIT",
+  "author": "Docfaro (https://docfaro.com)",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./signatures": {
+      "types": "./dist/signatures.d.ts",
+      "default": "./dist/signatures.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:dist": "node test/dist-smoke.mjs",
+    "fixtures": "node scripts/fetch-fixtures.mjs",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build && npm run test:dist"
+  },
+  "dependencies": {
+    "asn1js": "^4.0.0",
+    "pkijs": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@xmldom/xmldom": "^0.9.12",
+    "fflate": "^0.8.3",
+    "typescript": "^6.0.3",
+    "vitest": "^5.1.1"
+  }
+}

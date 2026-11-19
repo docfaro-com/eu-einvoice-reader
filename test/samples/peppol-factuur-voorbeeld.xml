@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic sample. All companies, people and numbers are fictitious. -->
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>F2026-0418</cbc:ID>
+  <cbc:IssueDate>2026-11-03</cbc:IssueDate>
+  <cbc:DueDate>2026-12-03</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:Note>Bedankt voor uw bestelling. Vermeld bij betaling de gestructureerde mededeling.</cbc:Note>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>PO-2026-117</cbc:BuyerReference>
+  <cac:OrderReference>
+    <cbc:ID>PO-2026-117</cbc:ID>
+  </cac:OrderReference>
+  <cac:AdditionalDocumentReference>
+    <cbc:ID>F2026-0418</cbc:ID>
+    <cbc:DocumentDescription>Factuur F2026-0418 (pdf-versie)</cbc:DocumentDescription>
+    <cac:Attachment>
+      <cbc:EmbeddedDocumentBinaryObject mimeCode="application/pdf" filename="F2026-0418.pdf">JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3Vy
+Y2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAov
+QmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEg
+L1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9u
+dCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9T
+dWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMg
+OCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAv
+UmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9J
+bWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdl
+Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5
+cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoRHJ1a2tlcmlqIFZvb3Ji
+ZWVsZCBidikgL0NyZWF0aW9uRGF0ZSAoRDoyMDAwMDEwMTAwMDAwMCswMCcwMCcpIC9DcmVhdG9y
+IChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDAwMDEwMTAwMDAwMCswMCcw
+MCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAog
+IC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlIChGYWN0dXVyIEYyMDI2LTA0MTggXChwZGYt
+dmVyc2llXCkpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ291bnQgMSAv
+S2lkcyBbIDQgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9GaWx0ZXIg
+WyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDEwNTkKPj4Kc3RyZWFtCkdh
+dD0qOWxLJl0lKSksNWkyJl1uR2ZSX3RUIlcqVlpBMDQ6QE5qZ15iTGlDR01Jam5rako5bCMwLXFw
+KVpzSG5UX0xNWkphW2JwSGosYVA6NTFrPWZGb1tGJ2sta1VFK0YqcmQ5TDg0W2dhJk5HRiRWMkBc
+UkZwZCo4X21HQEUmXDk/bkYsZFVrKiVdXl0uOlRbYkZvXTpOMFlUallGaGwlRW1wIStGL1MiY1Fi
+MnNEaDdfMEAnKDg5RC1QcEM+WkkrNmU0bipjJD1nbm5jSmBRX2xnRXJBSVkjSEk3ajQtVTxyKDRj
+YVA1KSQ5T1FuOyQwT1xxR1l1RUhAcllVaDZYRVwkbjFEWEBRSVNRLFZeUlFdTTdObGQ0LW5YMWA5
+ITVRMGFuZT88SyFgY2xiJVwnalpfZmsoLi9tS2cxITArPjdUaT8vKjEhUmdUW1tnTEQiSi4oWm1N
+VGteSkA0bT5ySi1XZk9cI29qUlJ1XD09ZWgpZ0RAbU82KEgoSE4vZnFJaG87aEElIXJaMENcQXNG
+LjNXNTRZPzE6Vi5jaXI8Tl0nWURIRXFdOFYjLSReQTBlPjtOUk9qWjFRa1RsJD5dVGltOnA6TS50
+bWUnRCc4M1ksYV8pV2RhQjYxYnNWZyYsWzQ5YkQ2NTBBX1BqSD4pVG1DX3JmU0k4IyU6S2hUPk9W
+WGpUN0o2Ul84dT1OcypHJU5GJlNIREcpTjhBKihUNicxLmU7Q1pBaFhtbmMqNSY4bnBlNEVkaVxD
+TyJwSmFoRDI2XXUvM1AqRmxcbEI6WmsrLCJURDxYUk03PkdncSErODBEImlFRiZNZXJVVzlAWiQx
+MEtYY1BtXi0xVEIwOztxZmo4cUM9cD80LSo2VE4sZTpnRlVobTw5XmkrbS0iSFQoJVxsNkwqNSZw
+dWlcKDs0Ym4sTEJcbDFgN1NqNzZobUBbUkU0dGphIllGZyo8WjJeZVkucTUoNipjQTgkUkEmUGBa
+cGhJWjpPIl40cXN1TyNkLlMxQz0wK20kM1FlS3QnRV1MUFh1NV4yJTpmTlxjKkwqJWNzZEg8TE1K
+QXQjNCdcYD1GWjg0QkxsOTJWLkAvQj88bi5JJUkiTSNYUzRlZFU/NU9GOkl0RldEUEkiYzo1PHM4
+SFt1RjdWKWBvO04sWk5XTTAzcENXcGJNOUZtZkRrMVYlUlBzTFg9IShsSiE5YyRkPSpiY1dSV2tL
+Iyt0T3N1VVRzNUtFXWBjYlI8SDxhVVhaLWZiU101Iyh1SFFcMz1TWDhSdUYtJGoybVpoMDxlXV1E
+UTE0WVx0XSFfMm1iMFwqVHAyRl88RkxyYnQpbVIoJVNgTiJPa0MxM0dycExoPi9nWE9DXSJeRT4r
+c1M/R1VGUlBmI2wiV3AtKUJHOGJsKisvJkNGViN+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDkK
+MDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMDIgMDAwMDAg
+biAKMDAwMDAwMDIwOSAwMDAwMCBuIAowMDAwMDAwMzIxIDAwMDAwIG4gCjAwMDAwMDA1MjQgMDAw
+MDAgbiAKMDAwMDAwMDU5MiAwMDAwMCBuIAowMDAwMDAwODkxIDAwMDAwIG4gCjAwMDAwMDA5NTAg
+MDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8MDQzYWYzN2I3ZTk5NTU4ODFkNWJhMzk1ZWFiNGM5
+MTA+PDA0M2FmMzdiN2U5OTU1ODgxZDViYTM5NWVhYjRjOTEwPl0KJSBSZXBvcnRMYWIgZ2VuZXJh
+dGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyA2IDAgUgovUm9v
+dCA1IDAgUgovU2l6ZSA5Cj4+CnN0YXJ0eHJlZgoyMTAwCiUlRU9GCg==</cbc:EmbeddedDocumentBinaryObject>
+    </cac:Attachment>
+  </cac:AdditionalDocumentReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0208">0123456749</cbc:EndpointID>
+      <cac:PartyName>
+        <cbc:Name>Drukkerij Voorbeeld</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>Voorbeeldstraat 12</cbc:StreetName>
+        <cbc:CityName>Gent</cbc:CityName>
+        <cbc:PostalZone>9000</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>BE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>BE0123456749</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Drukkerij Voorbeeld bv</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="0208">0123456749</cbc:CompanyID>
+        <cbc:CompanyLegalForm>RPR Gent</cbc:CompanyLegalForm>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>An Voorbeeld</cbc:Name>
+        <cbc:Telephone>+32 9 000 00 00</cbc:Telephone>
+        <cbc:ElectronicMail>facturen@drukkerij-voorbeeld.example</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0208">0765432146</cbc:EndpointID>
+      <cac:PartyName>
+        <cbc:Name>Boekhoudkantoor Peeters</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>Kerkstraat 3</cbc:StreetName>
+        <cbc:CityName>Antwerpen</cbc:CityName>
+        <cbc:PostalZone>2000</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>BE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>BE0765432146</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Boekhoudkantoor Peeters bv</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="0208">0765432146</cbc:CompanyID>
+        <cbc:CompanyLegalForm>RPR Antwerpen</cbc:CompanyLegalForm>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Jan Peeters</cbc:Name>
+        <cbc:Telephone>+32 3 000 00 00</cbc:Telephone>
+        <cbc:ElectronicMail>aankoop@peeters.example</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cbc:ActualDeliveryDate>2026-10-30</cbc:ActualDeliveryDate>
+  </cac:Delivery>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>+++202/6041/80084+++</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>BE68539007547034</cbc:ID>
+      <cbc:Name>Drukkerij Voorbeeld bv</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:Note>Betaling binnen 30 dagen na factuurdatum.</cbc:Note>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">106.20</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">420.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">88.20</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">300.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">18.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>6</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="EUR">720.00</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">720.00</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">826.20</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="EUR">826.20</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="C62">1000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">120.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>Visitekaartjes, 350 g mat</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0.12</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="C62">2000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">180.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>Briefpapier A4 met logo</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0.09</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="HUR">2</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">120.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>Opmaak en drukklaar maken</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">60.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="C62">200</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">300.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>Brochure ‘Gezond wonen’, 48 blz.</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>6</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

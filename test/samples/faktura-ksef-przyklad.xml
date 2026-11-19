@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Plik przykładowy. Wszystkie firmy, osoby i numery są fikcyjne. -->
+<Faktura xmlns="http://crd.gov.pl/wzor/2025/06/25/13775/">
+  <Naglowek>
+    <KodFormularza kodSystemowy="FA (3)" wersjaSchemy="1-0E">FA</KodFormularza>
+    <WariantFormularza>3</WariantFormularza>
+    <DataWytworzeniaFa>2026-11-03T09:14:00Z</DataWytworzeniaFa>
+    <SystemInfo>Docfaro – plik przykładowy</SystemInfo>
+  </Naglowek>
+  <Podmiot1>
+    <DaneIdentyfikacyjne>
+      <NIP>1234563218</NIP>
+      <Nazwa>Drukarnia Wzór sp. z o.o.</Nazwa>
+    </DaneIdentyfikacyjne>
+    <Adres>
+      <KodKraju>PL</KodKraju>
+      <AdresL1>ul. Przykładowa 12</AdresL1>
+      <AdresL2>00-950 Warszawa</AdresL2>
+    </Adres>
+    <DaneKontaktowe>
+      <Email>faktury@drukarnia-wzor.example</Email>
+      <Telefon>+48 22 000 00 00</Telefon>
+    </DaneKontaktowe>
+  </Podmiot1>
+  <Podmiot2>
+    <DaneIdentyfikacyjne>
+      <NIP>9510007773</NIP>
+      <Nazwa>Biuro Rachunkowe Kowalska sp. z o.o.</Nazwa>
+    </DaneIdentyfikacyjne>
+    <Adres>
+      <KodKraju>PL</KodKraju>
+      <AdresL1>ul. Polna 3</AdresL1>
+      <AdresL2>31-000 Kraków</AdresL2>
+    </Adres>
+    <DaneKontaktowe>
+      <Email>ksiegowosc@kowalska.example</Email>
+    </DaneKontaktowe>
+    <NrKlienta>K-0117</NrKlienta>
+    <JST>2</JST>
+    <GV>2</GV>
+  </Podmiot2>
+  <Fa>
+    <KodWaluty>PLN</KodWaluty>
+    <P_1>2026-11-03</P_1>
+    <P_1M>Warszawa</P_1M>
+    <P_2>FV/2026/11/042</P_2>
+    <P_6>2026-10-30</P_6>
+    <P_13_1>600.00</P_13_1>
+    <P_14_1>138.00</P_14_1>
+    <P_13_3>1200.00</P_13_3>
+    <P_14_3>60.00</P_14_3>
+    <P_15>1998.00</P_15>
+    <Adnotacje>
+      <P_16>2</P_16>
+      <P_17>2</P_17>
+      <P_18>2</P_18>
+      <P_18A>2</P_18A>
+      <Zwolnienie>
+        <P_19N>1</P_19N>
+      </Zwolnienie>
+      <NoweSrodkiTransportu>
+        <P_22N>1</P_22N>
+      </NoweSrodkiTransportu>
+      <P_23>2</P_23>
+      <PMarzy>
+        <P_PMarzyN>1</P_PMarzyN>
+      </PMarzy>
+    </Adnotacje>
+    <RodzajFaktury>VAT</RodzajFaktury>
+    <DodatkowyOpis>
+      <Klucz>Osoba odbierająca</Klucz>
+      <Wartosc>Anna Kowalska</Wartosc>
+    </DodatkowyOpis>
+    <FaWiersz>
+      <NrWierszaFa>1</NrWierszaFa>
+      <P_7>Wizytówki, karton 350 g, mat</P_7>
+      <P_8A>szt.</P_8A>
+      <P_8B>1000</P_8B>
+      <P_9A>0.15</P_9A>
+      <P_11>150.00</P_11>
+      <P_12>23</P_12>
+    </FaWiersz>
+    <FaWiersz>
+      <NrWierszaFa>2</NrWierszaFa>
+      <P_7>Papier firmowy A4 z logo</P_7>
+      <P_8A>szt.</P_8A>
+      <P_8B>2500</P_8B>
+      <P_9A>0.10</P_9A>
+      <P_11>250.00</P_11>
+      <P_12>23</P_12>
+    </FaWiersz>
+    <FaWiersz>
+      <NrWierszaFa>3</NrWierszaFa>
+      <P_7>Skład i projekt graficzny</P_7>
+      <P_8A>godz.</P_8A>
+      <P_8B>2</P_8B>
+      <P_9A>100.00</P_9A>
+      <P_11>200.00</P_11>
+      <P_12>23</P_12>
+    </FaWiersz>
+    <FaWiersz>
+      <NrWierszaFa>4</NrWierszaFa>
+      <P_7>Książka „Zdrowy dom”, 48 stron</P_7>
+      <CN>4901 99 00</CN>
+      <P_8A>szt.</P_8A>
+      <P_8B>100</P_8B>
+      <P_9A>12.00</P_9A>
+      <P_11>1200.00</P_11>
+      <P_12>5</P_12>
+    </FaWiersz>
+    <Platnosc>
+      <TerminPlatnosci>
+        <Termin>2026-11-17</Termin>
+      </TerminPlatnosci>
+      <FormaPlatnosci>6</FormaPlatnosci>
+      <RachunekBankowy>
+        <NrRB>61109010140000071219812874</NrRB>
+        <NazwaBanku>Bank Przykładowy S.A.</NazwaBanku>
+      </RachunekBankowy>
+    </Platnosc>
+    <WarunkiTransakcji>
+      <Zamowienia>
+        <DataZamowienia>2026-10-20</DataZamowienia>
+        <NrZamowienia>ZAM/2026/117</NrZamowienia>
+      </Zamowienia>
+    </WarunkiTransakcji>
+  </Fa>
+  <Stopka>
+    <Informacje>
+      <StopkaFaktury>Dziękujemy za zamówienie. Reklamacje prosimy zgłaszać w ciągu 14 dni.</StopkaFaktury>
+    </Informacje>
+    <Rejestry>
+      <KRS>0000123456</KRS>
+    </Rejestry>
+  </Stopka>
+</Faktura>
