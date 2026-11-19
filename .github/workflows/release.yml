@@ -1,0 +1,30 @@
+name: Release
+
+# Publishing uses npm trusted publishing (OIDC): no npm token is stored in the repository.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: npm
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          cache: npm
+      - run: npm ci
+      - name: Download official sample invoices
+        run: npm run fixtures
+        continue-on-error: true
+      - name: Tag matches package.json version
+        run: test "v$(node -p 'require("./package.json").version')" = "$GITHUB_REF_NAME"
+      # prepublishOnly runs typecheck, tests, build and the dist smoke test.
+      - run: npm publish --access public --provenance
