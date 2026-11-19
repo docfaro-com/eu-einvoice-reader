@@ -21,13 +21,13 @@
     "xades",
     "invoice-parser"
   ],
-  "homepage": "https://github.com/OWNER/eu-einvoice-reader#readme",
+  "homepage": "https://github.com/docfaro-com/eu-einvoice-reader#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/eu-einvoice-reader/issues"
+    "url": "https://github.com/docfaro-com/eu-einvoice-reader/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/eu-einvoice-reader.git"
+    "url": "git+https://github.com/docfaro-com/eu-einvoice-reader.git"
   },
   "license": "MIT",
   "author": "Docfaro (https://docfaro.com)",
