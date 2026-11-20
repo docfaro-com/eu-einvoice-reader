@@ -167,7 +167,7 @@ for (const [key, c] of Object.entries(CATS)) {
   BASE[`${p}-08`] = [`La base d’imposition de la catégorie ${cat} doit être égale à la somme des lignes de cette catégorie${key === 'S' || key === 'Z' ? ' et de ce taux' : ''}, moins les remises, plus les charges.`, 'Recalculer la base d’imposition.'];
   if (c.zero) BASE[`${p}-09`] = [`Avec la catégorie ${cat}, le montant de TVA doit être égal à 0.`, 'Mettre la TVA à 0 ou vérifier la catégorie.'];
   BASE[`${p}-10`] = c.reason
-    ? [`Avec la catégorie ${cat}, un motif d’exonération doit être indiqué, en texte ou sous forme de code.`, 'Ajouter le motif, p. ex. « Autoliquidation » ou le code VATEX-EU-AE.']
+    ? [`Avec la catégorie ${cat}, un motif d’exonération doit être indiqué, en texte ou sous forme de code.`, key === 'AE' ? 'Ajouter le motif, p. ex. « Autoliquidation » ou le code VATEX-EU-AE.' : 'Ajouter le motif en texte (BT-120) ou sous forme de code (BT-121).']
     : [`Avec la catégorie ${cat}, aucun motif d’exonération ne doit être indiqué.`, 'Supprimer le motif d’exonération.'];
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "eu-einvoice-reader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read and pre-check European e-invoices in the browser or Node.js: XRechnung, ZUGFeRD / Factur-X (CII), Peppol BIS / UBL 2.1, FatturaPA, Facturae and KSeF FA(3), plus .p7m and .xsig signed files.",
   "keywords": [
     "e-invoice",
